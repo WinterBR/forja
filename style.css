@@ -1,0 +1,98 @@
+
+.navbar {
+    background-color: #4b3413;
+    height: 20%;
+}
+
+#cabesalho .nav .nav-link.active {
+    background-color: #faf5e8;
+    color: #4b3413;
+}
+
+#cabesalho .nav .nav-link,
+.navbar-brand,
+.navbar-brand:hover {
+    color: #faf5e8;
+}
+
+body {
+    font-family: "Nanum Gothic Coding", monospace;
+    font-weight: 400;
+    font-style: normal;
+}
+
+
+.navbar-brand,
+.navbar-brand:hover,
+.container h2,
+.container h3,
+.tab-pane h5,
+aside button,
+#contato label,
+#contato button {
+    font-family: "MedievalSharp", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.container h2 span,
+.container h3,
+.laranja {
+    color: orangered;
+}
+
+.navbar-toggler-icon {
+    filter: invert(1);
+}
+
+.carousel-inner img {
+    width: 100%;
+    height: 100%;
+}
+
+#lista img {
+    height: 100%;
+}
+
+section {
+    background-color: #e3d5b0;
+}
+
+#confeccao img {
+    height: 230px;
+}
+
+.nav-lista .nav-link.active {
+    background-color: orangered;
+    color: #fff;
+}
+
+.nav-lista .nav-link:hover {
+    color: orangered;
+}
+
+.nav-lista .nav-link.active:hover {
+    color: #fff;
+}
+
+#lista .col-md-3 img {
+    height: 180px;
+    width: 100%;
+}
+ 
+#contato li {
+    list-style: none;
+    display: inline;
+    gap: 4px;
+}
+
+#contato li a {
+    text-decoration: none;
+}
+
+#contato button {
+    background-color: orangered;
+    height: 50px;
+    width: 120px;
+    color: #fff;
+}

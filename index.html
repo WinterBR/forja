@@ -1,0 +1,403 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=MedievalSharp&family=Nanum+Gothic+Coding&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Forja</title>
+</head>
+<body>
+    <header class="navbar navbar-expand-lg sticky-top p-4" id="cabesalho">
+        <div class="container">
+            <h1 class="navbar-brand m-0">Forja de armas</h1>
+            <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#menu-nave">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <nav class="navbar-collapse collapse justify-content-end" id="menu-nave">
+                <ul class="nav nav-pills d-block d-md-flex">
+                    <li class="nav-item">
+                        <a href="#sobre-forja" class="nav-link" >
+                            <i class="bi bi-tools me-1"></i>
+                            Sobre a Forja</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#confeccao" class="nav-link">
+                            <i class="bi bi-hammer me-1"></i>
+                            Confecção</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#lista" class="nav-link">
+                            <i class="bi bi-card-list me-1"></i>
+                            Lista de armas</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#contato" class="nav-link me-1">
+                            <i class="bi bi-chat-left"></i>
+                            Fale conosco</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <div data-bs-spy="scroll" data-bs-target="cabesalho" data-bs-smooth-scroll="true">
+        <section id="sobre-forja">
+            <div id="carousel-exemplo" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                    <div data-bs-interval="3000" class="carousel-item active">
+                        <img class="d-block w-100" src="https://www.infoescola.com/wp-content/uploads/2011/08/castelo-de-edimburgo_675240196.jpg"  alt="Sumérios">
+                    <div class="carousel-caption">
+                
+                    </div>
+                    </div>
+                    <div data-bs-interval="3000" class="carousel-item">
+                        <img class="d-block w-100" src="https://coisasdojapao.com/wp-content/uploads/2017/09/castelo.jpg"   alt="Celtas">
+                    <div class="carousel-caption">
+        
+                    </div>
+                    </div>
+                    <div data-bs-interval="3000" class="carousel-item">
+                        <img class="d-block w-100" src="https://images.educamaisbrasil.com.br/content/banco_de_imagens/guia-de-estudo/D/coliseu-estrutura-roma.jpg"  alt="Egipícios">
+                    <div class="carousel-caption">
+                    
+                    </div>
+                    </div>
+                    <div data-bs-interval="3000" class="carousel-item">
+                        <img class="d-block w-100" src="https://s2.glbimg.com/AjV8uwesYxuKmgc5LiKNwM-bmU8=/e.glbimg.com/og/ed/f/original/2017/08/17/cc_shutterstock_457409287_16x9.jpg"  alt="Astecas">
+                    <div class="carousel-caption">
+            
+                    </div>
+                    </div>
+                    
+                    <button data-bs-target="#carousel-exemplo" data-bs-slide="prev" class="carousel-control-prev" type="button">
+                        <span class="carousel-control-prev-icon"></span>
+                    </button>
+                    <button data-bs-target="#carousel-exemplo" data-bs-slide="next" class="carousel-control-next" type="button">
+                        <span class="carousel-control-next-icon"></span>
+                    </button>
+                    <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carousel-exemplo" class="active" data-bs-slide-to="0"></button>
+                    <button type="button" data-bs-target="#carousel-exemplo" data-bs-slide-to="1"></button>
+                    <button type="button" data-bs-target="#carousel-exemplo" data-bs-slide-to="2"></button>
+                    <button type="button" data-bs-target="#carousel-exemplo" data-bs-slide-to="3"></button>
+                    </div>
+                </div>  
+            </div>
+            <div>
+                <div class="pt-5 pb-5">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-md-5">
+                                <img class="d-block w-100 mb-2" src="https://cdn.visitportugal.com/sites/default/files/styles/encontre_detalhe_poi_destaque/public/mediateca/Velho%20Cavalinho%20Taberna_D.jpg?itok=0GHfu63q" class="d-block w-100 rounded" alt="">
+                            </div>
+                            <div class="col-md-7">
+                                <h2>
+                                    Sobre a  <span>forja</span>
+                                </h2>
+                                <p>
+                                    Nossa loja é especializada na forja artesanal de armas antigas, como espadas, machados e lanças. Cada peça é feita à mão com técnicas tradicionais, criando verdadeiras obras de arte que refletem a história e a maestria dos ferreiros de antigamente. Ideal para colecionadores e apreciadores de armas históricas.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="confeccao" class="pt-5 pb-5">
+            <div class="container pt-5">
+                <div class="row">
+                    <h2 class="section-tittle text-center">Como é<span> feito</span></h2>
+                </div>
+                <div class="row mt-4">
+                    <div class="col-md-4">
+                        <img class="d-block w-100 rounded mb-2" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQfFjefUNgcxz-GLXmdOSo1xGy6ZqqZRQ0siA&s" alt="">
+                        <h3>
+                            <i class="bi bi-collection"></i>
+                            Seleção do Material
+                        </h3>
+                        <p>
+                            Escolha do tipo de metal, geralmente aço, que será usado na fabricação da arma.
+                        </p>
+                    </div>
+                    <div class="col-md-4">
+                        <img class="d-block w-100 rounded mb-2" src="https://img.freepik.com/fotos-premium/aquecimento-de-pecas-brutas-de-metal-em-um-forno-de-forjamento-para-forja_271853-825.jpg" alt="">
+                        <h3>
+                            <i class="bi bi-thermometer-sun"></i>
+                            Aquecimento
+                        </h3>
+                        <p>
+                            O metal é aquecido em uma fornalha até atingir uma temperatura elevada, tornando-o maleável.
+                        </p>
+                    </div>
+                    <div class="col-md-4">
+                        <img class="d-block w-100 rounded mb-2" src="https://metaldistendido.pt/wp-content/uploads/2021/08/Quais-sao-os-tipos-e-como-funciona-o-processo-de-forjamento..png" alt="">
+                        <h3>
+                            <i class="bi bi-hammer"></i>
+                            Forjamento
+                        </h3>
+                        <p>
+                            O metal aquecido é martelado e moldado na forma desejada. Isso pode envolver várias rodadas de aquecimento e martelagem para ajustar a forma e as características da arma.
+                        </p>
+                    </div>
+                    <div class="col-md-4">
+                        <img class="d-block w-100 rounded mb-2" src="https://acosnobre.com.br/wp-content/uploads/2021/07/tempera-de-aco.jpg" alt="">
+                        <h3>
+                            <i class="bi bi-thermometer-snow"></i>
+                            Têmpera
+                        </h3>
+                        <p>
+                            A arma é resfriada rapidamente em água ou óleo para endurecer o metal. Este processo aumenta a dureza e a resistência do material.
+                        </p>
+                    </div>
+                    <div class="col-md-4">
+                        <img class="d-block w-100 rounded mb-2" src="https://verbodavida.com/campinagrande/wp-content/uploads/sites/7/2023/08/Afiados-pelo-Espirito-Santo.jpeg" alt="">
+                        <h3>
+                            <i class="bi bi-chevron-bar-down"></i>
+                            Afiação
+                        </h3>
+                        <p>
+                            A lâmina é afiada, dando-lhe um fio cortante. Este passo também pode incluir polimento para dar um acabamento liso e brilhante.
+                        </p>
+                    </div>
+                    <div class="col-md-4">
+                        <img class="d-block w-100 rounded mb-2" src="https://brasayoung.com/wp-content/uploads/2020/05/DIY-construindo-sua-pr%C3%B3pria-espada-1080x675.jpg" alt="">
+                        <h3>
+                            <i class="bi bi-screwdriver"></i>
+                            Montagem
+                        </h3>
+                        <p>
+                            Se a arma tiver componentes adicionais, como um cabo ou guarda, eles são montados neste estágio.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="lista">
+            <div class="container pt-5">
+                <div class="row">
+                    <h2 class="section-tittle text-center pb-4">Lista de <span>armas</span></h2>
+                </div>
+                <div class="row">
+                    <aside class="col-md-2">
+                        <nav class="nav nav-pills flex-column nav-lista">
+                            <button type="button" data-bs-toggle="tab" data-bs-target="#espadas" class="fw-bold text-start nav-link active laranja">Espadas</button>
+                            <button type="button" data-bs-toggle="tab" data-bs-target="#machados" class="fw-bold text-start nav-link laranja">Machados</button>
+                            <button type="button" data-bs-toggle="tab" data-bs-target="#lancas" class="fw-bold text-start nav-link laranja">Lanças</button>
+                            <button type="button" data-bs-toggle="tab" data-bs-target="#escudos" class="fw-bold text-start nav-link laranja">Escudos</button>
+                        </nav>
+                    </aside>
+                    <div class="col-md-10">
+                        <div class="tab-content">
+                            <div class="tab-pane active" id="espadas"> 
+                                <div class="row">
+                                    <div class="col-md-3">
+                                        <img src="https://preview.redd.it/looking-for-a-historically-accurate-zweihander-flamberge-v0-4mg2ugby4n1b1.jpg?width=640&crop=smart&auto=webp&s=05669093e6c0ecc024b4821f818dc69b27646918" alt="">
+                                        <h5 class="laranja fw-bold ">Zweihander</h5>
+                                        <p>
+                                            Uma espada de duas mãos originária da Europa, principalmente usada durante o século XVI. Conhecida por seu tamanho imponente, geralmente medindo entre 1,4 e 2 metros de comprimento, era utilizada para romper formações de lanceiros e para defender contra cavaleiros.
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img src="https://miro.medium.com/v2/resize:fit:600/0*AmeEdD8URqgHd9iO.jpg" alt="">
+                                        <h5 class="laranja fw-bold ">Nodachi</h5>
+                                        <p>
+                                            Uma espada japonesa longa, semelhante à katana, mas com uma lâmina significativamente maior, usada por guerreiros a pé contra cavaleiros. Devido ao seu tamanho, era difícil de manejar, mas extremamente eficaz em cortes poderosos.
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img src="https://mlf1v2cerf7h.i.optimole.com/cb:jO1c.451af/w:auto/h:auto/q:mauto/f:best/id:bdf2a37ec01d041af9436dad54a65be5/https://swordskingdom.com/viking-sword.jpg" alt="">
+                                        <h5 class="laranja fw-bold ">Ulfberhts:</h5>
+                                        <p>
+                                            Um tipo de espada viking, famosa por sua qualidade superior de aço, que era incomum para a época. Essas espadas, datadas dos séculos IX a XI, eram vistas como símbolo de status e poder.
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img src="https://i00.eu/img/602/1024x1024w/2n1zsse2/7571.jpg" alt="">
+                                        <h5 class="laranja fw-bold ">Claymore</h5>
+                                        <p>
+                                            Uma espada de duas mãos usada pelos escoceses entre os séculos XV e XVII. Conhecida por sua grandeza, era uma arma formidável em combate corpo a corpo, especialmente em batalhas campais.
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img src="https://mexicanroutes.com/wp-content/uploads/2018/07/MexicanRoutes-Macuahuitl-EspadaAzteca-001.jpg" alt="">
+                                        <h5 class="laranja fw-bold ">Macuahuitl</h5>
+                                        <p>
+                                            Uma arma asteca feita de madeira com lâminas de obsidiana incrustadas nas laterais. Embora não fosse de metal, era incrivelmente afiada e capaz de causar danos severos.
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img src="https://swordis.com/wp-content/uploads/2022/06/gladius-Pompeii-sword.jpg" alt="">
+                                        <h5 class="laranja fw-bold ">Gladius</h5>
+                                        <p>
+                                            A espada curta dos legionários romanos, usada principalmente para estocar em combates corpo a corpo. Compacta e letal, era ideal para as formações em linha dos exércitos romanos.
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img src="https://bellatore.red/wp-content/uploads/2020/02/Swepthilt-Rapier-Bellatore-2.jpg" alt="">
+                                        <h5 class="laranja fw-bold ">Rapieira</h5>
+                                        <p>
+                                            Uma espada longa e fina, popular na Europa durante os séculos XVI e XVII. Projetada para duelos, era usada principalmente para estocar, favorecendo rapidez e precisão.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane" id="machados"> 
+                                <div class="row">
+                                    <div class="col-md-3">
+                                        <img src="https://grimfrost.com/cdn/shop/products/3313_1_1080x.jpg?v=1639682185" alt="">
+                                        <h5 class="laranja fw-bold ">Machado Viking</h5>
+                                        <p>
+                                            Uma arma de corte utilizada pelos vikings, com diversas variações em tamanho. Era leve e rápida, sendo usada tanto em combates quanto para arremesso.
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c0/AMI_-_Goldene_Doppelaxt.jpg/1200px-AMI_-_Goldene_Doppelaxt.jpg" alt="">
+                                        <h5 class="laranja fw-bold ">Labrys</h5>
+                                        <p>
+                                            Um machado de duas lâminas, símbolo da cultura minoica. Embora tenha conotações religiosas e cerimoniais, também era uma arma usada em combate em tempos antigos.
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img src="https://i.ebayimg.com/images/g/mLMAAOSwLCBjEACz/s-l1200.webp" alt="">
+                                        <h5 class="laranja fw-bold ">Tomahawk</h5>
+                                        <p>
+                                            Uma pequena machadinha usada pelos nativos americanos. Além de arma, servia como ferramenta e tinha uso simbólico em várias culturas indígenas.
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img src="https://cdn.exoticindia.com/images/products/original/sculp-restored/wsc761-38inch.jpg" alt="">
+                                        <h5 class="laranja fw-bold ">Vidyudabhi</h5>
+                                        <p>
+                                            Um machado lendária da mitologia hindu, associada a trovões e raios, possivelmente ligada a divindades como Indra. Embora sua existência seja mítica, simboliza poder e destruição.
+                                        </p>
+                                    </div>                                       
+                                </div>
+                            </div>
+                            <div class="tab-pane" id="lancas"> 
+                                <div class="row">
+                                    <div class="col-md-3">
+                                        <img src="https://i.etsystatic.com/21647673/r/il/98d743/5502797362/il_1080xN.5502797362_9y7s.jpg" alt="">
+                                        <h5 class="laranja fw-bold ">Yari</h5>
+                                        <p>
+                                            Uma lança japonesa, usada por samurais e soldados de infantaria. Variando em tamanho, era versátil tanto para estocadas quanto para golpes laterais.
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img src="https://hetairoi.de/assets/articles/sarissa-experiment5.jpg" alt="">
+                                        <h5 class="laranja fw-bold ">Sarissa</h5>
+                                        <p>
+                                            Uma longa lança macedônia de 4 a 6 metros, usada pelos falangistas no século IV a.C. Criava uma parede de pontas em combate, sendo crucial para as vitórias de Alexandre, o Grande.
+
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img src="https://as2.ftcdn.net/v2/jpg/01/16/13/17/1000_F_116131755_j6SBrhVVXN6QlLcu3njpVjTUQPTA2Z0c.jpg" alt="">
+                                        <h5 class="laranja fw-bold ">Lance</h5>
+                                        <p>
+                                            Uma lança usada por cavaleiros medievais em torneios e combates. Feita para quebrar no impacto em justas, mas letal em batalha real, simbolizava a cavalaria e a honra medieval.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane" id="escudos"> 
+                                <div class="row">
+                                    <div class="col-md-3">
+                                        <img src="https://ae01.alicdn.com/kf/S624aecfc9ec043faa6b4aaa154f25f9fE/Novo-sinal-de-madeira-medieval-viking-lobo-guerreiro-artesanal-batalha-pronto-escudo-medieval-viking-guerreiro-escudo.jpg" alt="">
+                                        <h5 class="laranja fw-bold ">Escudo Viking</h5>
+                                        <p>
+                                            Escudo redondo usado pelos vikings, feito de madeira reforçada com bordas de metal. Era essencial tanto para defesa quanto para formar a famosa "muralha de escudos."
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img src="https://img.joomcdn.net/601615fb6f61e9d2214e485e8874a538383cbd4e_original.jpeg" alt="">
+                                        <h5 class="laranja fw-bold ">Aspis</h5>
+                                        <p>
+                                            Um grande escudo redondo usado pelos hoplitas gregos. Feito de madeira coberta de bronze, era essencial para a formação falange, protegendo os soldados nas batalhas.
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img src="https://history-making.com/wpsite/wp-content/uploads/2022/02/Roman-Sheilds-Title-image.jpg" alt="">
+                                        <h5 class="laranja fw-bold ">Escutum</h5>
+                                        <p>
+                                            Um escudo grande e retangular utilizado pelos legionários romanos. Feito de madeira e coberto com couro e metal, era essencial para as formações de combate e proteção.
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRNh__oBSyvCDIDO3PWao1jb5HhTID3np9xkNGJ5w1rBiH_eLh0IkliowlQmxHz4NQNAZI&usqp=CAU" alt="">
+                                        <h5 class="laranja fw-bold ">Broquél</h5>
+                                        <p>
+                                            Pequenos escudos usados principalmente em duelos e como defesa pessoal na Europa medieval e renascentista. Eram leves e fáceis de manusear, permitindo ao usuário desviar ataques rápidos.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="contato" class="pt-5 pb-5">
+            <div class="container">
+                <div class="row">
+                    <h2 class="section-tittle text-center">
+                        Fale <span class="laranja">conosco</span>
+                    </h2>
+                </div>
+                <div class="row">
+                    <div class="col-md-7">
+                        <form>
+                            <div>
+                                <label for="nome" class="form-label fw-bold laranja">Seu nome</label>
+                                <input type="text" id="nome" class="form-control" required>
+                            </div>
+                            <div>
+                                <label for="email" class="form-label fw-bold laranja">Seu email</label>
+                                <input type="email" id="email" class="form-control" required>
+                            </div>
+                            <div>
+                                <label for="telefone" class="form-label fw-bold laranja">Seu telefone (opcional)</label>
+                                <input type="tel" id="telefone" class="form-control">
+                            </div>
+                            <div>
+                                <label for="mensagem" class="form-label fw-bold laranja">Seu mensagem</label>
+                                <textarea class="form-control" id="mensagem" required></textarea>
+                            </div>
+                            <button type="submit" class="btn mt-5 fw-bold">Enviar</button>
+                        </form>
+                    </div>
+                    <div class="col-md-5 mt-2">
+                        <div class="row">
+                            <h3 class="section-tittle fs-4"><i class="bi bi-hand-thumbs-up-fill"></i> Redes sociais:</h3>
+                            <ul>
+                                <li class="fs-5">
+                                    <a href="#">
+                                        <i class="laranja bi bi-facebook"></i>
+                                    </a>
+                                </li>
+                                <li class="fs-5">
+                                    <a href="#"><i class="laranja bi bi-instagram"></i>
+                                    </a>
+                                </li>
+                                <li class="fs-5">
+                                    <a href="#"><i class="laranja bi bi-twitter-x"></i></a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="row">
+                            <h3 class="section-tittle fs-4"><i class="bi bi-send-fill"></i> Endereço:</h3>
+                            <p>
+                                Rua HTML n°5, Bairro BootStrap
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
